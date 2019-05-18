@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: lightslategray;
+}
+
+
+/* backgrounds for parallax effect  */
+.main, .secondPage, .thirdPage, .finalPage{
+    position: relative; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Set each background in CSS  */
+.main{
+    background-image: url(./assets/./5.jpg);
+}
+
+
+/* With min-height you control how much picture you want to show */
+.secondPage{
+    background-image: url(./assets/./57154218_10213530957972632_2165636756773273600_1.jpg);
+    min-height: 650px; 
+}
+
+.thirdPage{
+    background-image: url(./assets/./57159890_10213531047334866_5188671199122554880_2.jpg);
+    min-height: 650px;
+}
+
+.finalPage{
+    background-image: url(./assets/./57336120_10213530959052659_4421637074243813376_4.jpg);
+    min-height: 650px;
+}
+
+/* Content sections */
+.one{
+    height: 400px;
+    text-align: center;
+}
+
+.two{
+    height: 400px;
+    text-align: center;
+}
+
+
+.three{
+    height: 400px;
+    text-align: center;
+}
+
+.maintitle {
+    position: center;
+    margin:  0;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    font-size: 100px;
+    align-content: center;
+    background-color: slategray;
+    opacity: .85;
+}
