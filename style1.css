@@ -24,7 +24,6 @@ body{
     background-image: url(./assets/./5.jpg);
 }
 
-
 /* With min-height you control how much picture you want to show */
 .secondPage{
     background-image: url(./assets/./57154218_10213530957972632_2165636756773273600_1.jpg);
@@ -42,7 +41,7 @@ body{
 }
 
 /* Content sections */
-.one{
+/* .one{
     height: 400px;
     text-align: center;
 }
@@ -52,11 +51,10 @@ body{
     text-align: center;
 }
 
-
 .three{
     height: 400px;
     text-align: center;
-}
+} */
 
 .maintitle {
     position: center;
@@ -67,6 +65,21 @@ body{
     color: #F9F1E9;
     text-align: center;
     font-size: 100px;
+    align-content: center;
+    background-color: slategray;
+    opacity: .85;
+}
+
+.sectiontitle {
+    position: center;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    font-size: 60px;
     align-content: center;
     background-color: slategray;
     opacity: .85;
